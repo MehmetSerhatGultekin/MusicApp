@@ -65,6 +65,36 @@
             </objects>
             <point key="canvasLocation" x="1066.4122137404579" y="3.5211267605633805"/>
         </scene>
+        <!--PlayerVC-->
+        <scene sceneID="XPG-uc-R1S">
+            <objects>
+                <viewController storyboardIdentifier="player" id="3do-Hh-OxT" customClass="PlayerVC" customModule="MusicApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kMf-Wu-G6a">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cjc-d6-cfY">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4iH-rs-DQb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cjc-d6-cfY" firstAttribute="leading" secondItem="4iH-rs-DQb" secondAttribute="leading" id="A8g-Qy-gfH"/>
+                            <constraint firstItem="4iH-rs-DQb" firstAttribute="bottom" secondItem="cjc-d6-cfY" secondAttribute="bottom" id="GJV-UF-aMF"/>
+                            <constraint firstItem="4iH-rs-DQb" firstAttribute="trailing" secondItem="cjc-d6-cfY" secondAttribute="trailing" id="Udr-fN-gEm"/>
+                            <constraint firstItem="cjc-d6-cfY" firstAttribute="top" secondItem="4iH-rs-DQb" secondAttribute="top" id="c3m-gB-PrV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="holder" destination="cjc-d6-cfY" id="LFH-PB-ile"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZvY-sE-G7x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1964" y="4"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="tK5-fy-RCc">
             <objects>

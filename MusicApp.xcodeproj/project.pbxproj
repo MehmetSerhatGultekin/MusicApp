@@ -13,9 +13,10 @@
 		D18D8B4D2D41233F000E2673 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B4C2D41233F000E2673 /* Base */; };
 		D18D8B4F2D412340000E2673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B4E2D412340000E2673 /* Assets.xcassets */; };
 		D18D8B522D412340000E2673 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B512D412340000E2673 /* Base */; };
-		D18D8B5D2D412670000E2673 /* Gune_-_NKB_Official_Music_Video.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B5A2D412670000E2673 /* Gune_-_NKB_Official_Music_Video.mp3 */; };
-		D18D8B5E2D412670000E2673 /* lil_peep_xxxtentacion_-_falling_down_slowed_reverb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B5B2D412670000E2673 /* lil_peep_xxxtentacion_-_falling_down_slowed_reverb.mp3 */; };
-		D18D8B5F2D412670000E2673 /* 24_Blood_Theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B5C2D412670000E2673 /* 24_Blood_Theme.mp3 */; };
+		D18D8B5D2D412670000E2673 /* song2̇.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B5A2D412670000E2673 /* song2̇.mp3 */; };
+		D18D8B5E2D412670000E2673 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B5B2D412670000E2673 /* song3.mp3 */; };
+		D18D8B5F2D412670000E2673 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B5C2D412670000E2673 /* song1.mp3 */; };
+		D18D8B612D413675000E2673 /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D8B602D413675000E2673 /* PlayerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +28,10 @@
 		D18D8B4E2D412340000E2673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D18D8B512D412340000E2673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D18D8B532D412340000E2673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D18D8B5A2D412670000E2673 /* Gune_-_NKB_Official_Music_Video.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gune_-_NKB_Official_Music_Video.mp3"; sourceTree = "<group>"; };
-		D18D8B5B2D412670000E2673 /* lil_peep_xxxtentacion_-_falling_down_slowed_reverb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lil_peep_xxxtentacion_-_falling_down_slowed_reverb.mp3"; sourceTree = "<group>"; };
-		D18D8B5C2D412670000E2673 /* 24_Blood_Theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 24_Blood_Theme.mp3; sourceTree = "<group>"; };
+		D18D8B5A2D412670000E2673 /* song2̇.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "song2̇.mp3"; sourceTree = "<group>"; };
+		D18D8B5B2D412670000E2673 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
+		D18D8B5C2D412670000E2673 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
+		D18D8B602D413675000E2673 /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				D18D8B592D41265F000E2673 /* Audio */,
 				D18D8B492D41233F000E2673 /* SongsVC.swift */,
+				D18D8B602D413675000E2673 /* PlayerVC.swift */,
 				D18D8B452D41233F000E2673 /* AppDelegate.swift */,
 				D18D8B472D41233F000E2673 /* SceneDelegate.swift */,
 				D18D8B4B2D41233F000E2673 /* Main.storyboard */,
@@ -77,9 +80,9 @@
 		D18D8B592D41265F000E2673 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				D18D8B5C2D412670000E2673 /* 24_Blood_Theme.mp3 */,
-				D18D8B5A2D412670000E2673 /* Gune_-_NKB_Official_Music_Video.mp3 */,
-				D18D8B5B2D412670000E2673 /* lil_peep_xxxtentacion_-_falling_down_slowed_reverb.mp3 */,
+				D18D8B5C2D412670000E2673 /* song1.mp3 */,
+				D18D8B5A2D412670000E2673 /* song2̇.mp3 */,
+				D18D8B5B2D412670000E2673 /* song3.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -142,10 +145,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D18D8B5E2D412670000E2673 /* lil_peep_xxxtentacion_-_falling_down_slowed_reverb.mp3 in Resources */,
-				D18D8B5D2D412670000E2673 /* Gune_-_NKB_Official_Music_Video.mp3 in Resources */,
+				D18D8B5E2D412670000E2673 /* song3.mp3 in Resources */,
+				D18D8B5D2D412670000E2673 /* song2̇.mp3 in Resources */,
 				D18D8B4F2D412340000E2673 /* Assets.xcassets in Resources */,
-				D18D8B5F2D412670000E2673 /* 24_Blood_Theme.mp3 in Resources */,
+				D18D8B5F2D412670000E2673 /* song1.mp3 in Resources */,
 				D18D8B522D412340000E2673 /* Base in Resources */,
 				D18D8B4D2D41233F000E2673 /* Base in Resources */,
 			);
@@ -161,6 +164,7 @@
 				D18D8B4A2D41233F000E2673 /* SongsVC.swift in Sources */,
 				D18D8B462D41233F000E2673 /* AppDelegate.swift in Sources */,
 				D18D8B482D41233F000E2673 /* SceneDelegate.swift in Sources */,
+				D18D8B612D413675000E2673 /* PlayerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

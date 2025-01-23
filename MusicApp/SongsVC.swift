@@ -70,7 +70,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.accessoryType = .disclosureIndicator // açıklama göstergesi eklemek için kullanıldı
         cell.imageView?.image = UIImage(named: song.imageName)
         cell.textLabel?.font = UIFont(name: "Calibri-Bold", size: 18)
-        cell.textLabel?.font = UIFont(name: "Calibri", size: 18)
+        cell.textLabel?.font = UIFont(name: "Calibri", size: 16)
         
         return cell
     }
@@ -82,18 +82,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableView.deselectRow(at: indexPath, animated: true)
         
         let position = indexPath.row
-        guard let vc = storyboard?.instantiateViewController(withIdentifier: "player") else {
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "player") as? PlayerVC else {
             return
         }
-             
+        vc.songs = songs
+        vc.position = position
+        present(vc, animated: true)
     }
     
-    struct Song {
-        let name: String
-        let albumName: String
-        let artistName: String
-        let imageName: String
-        let trackName: String
-    }
 }
 
+struct Song {
+    let name: String
+    let albumName: String
+    let artistName: String
+    let imageName: String
+    let trackName: String
+}
