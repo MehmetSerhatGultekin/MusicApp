@@ -13,7 +13,7 @@
 		D18D8B4D2D41233F000E2673 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B4C2D41233F000E2673 /* Base */; };
 		D18D8B4F2D412340000E2673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B4E2D412340000E2673 /* Assets.xcassets */; };
 		D18D8B522D412340000E2673 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B512D412340000E2673 /* Base */; };
-		D18D8B5D2D412670000E2673 /* song2̇.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B5A2D412670000E2673 /* song2̇.mp3 */; };
+		D18D8B5D2D412670000E2673 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B5A2D412670000E2673 /* song2.mp3 */; };
 		D18D8B5E2D412670000E2673 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B5B2D412670000E2673 /* song3.mp3 */; };
 		D18D8B5F2D412670000E2673 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18D8B5C2D412670000E2673 /* song1.mp3 */; };
 		D18D8B612D413675000E2673 /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D8B602D413675000E2673 /* PlayerVC.swift */; };
@@ -28,7 +28,7 @@
 		D18D8B4E2D412340000E2673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D18D8B512D412340000E2673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D18D8B532D412340000E2673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D18D8B5A2D412670000E2673 /* song2̇.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "song2̇.mp3"; sourceTree = "<group>"; };
+		D18D8B5A2D412670000E2673 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
 		D18D8B5B2D412670000E2673 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
 		D18D8B5C2D412670000E2673 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
 		D18D8B602D413675000E2673 /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				D18D8B5C2D412670000E2673 /* song1.mp3 */,
-				D18D8B5A2D412670000E2673 /* song2̇.mp3 */,
+				D18D8B5A2D412670000E2673 /* song2.mp3 */,
 				D18D8B5B2D412670000E2673 /* song3.mp3 */,
 			);
 			path = Audio;
@@ -146,7 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D18D8B5E2D412670000E2673 /* song3.mp3 in Resources */,
-				D18D8B5D2D412670000E2673 /* song2̇.mp3 in Resources */,
+				D18D8B5D2D412670000E2673 /* song2.mp3 in Resources */,
 				D18D8B4F2D412340000E2673 /* Assets.xcassets in Resources */,
 				D18D8B5F2D412670000E2673 /* song1.mp3 in Resources */,
 				D18D8B522D412340000E2673 /* Base in Resources */,
